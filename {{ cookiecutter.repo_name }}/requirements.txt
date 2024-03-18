@@ -2,3 +2,15 @@ sphinx-rtd-theme
 python-dotenv
 psycopg2
 SQLAlchemy
+azure.core.exceptions
+azure.identity
+azure.keyvault.secrets
+boto3
+botocore.exceptions
+datetime
+dotenv
+pandas
+setuptools
+
+
+
