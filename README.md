@@ -45,7 +45,7 @@ Project Organization
         ├── pipeline.py    <- The ETL (extract-transform-load) pipeline itself containing the sequence of nodes
         │
         └── nodes          <- Scripts to containing each step of the ETL process.
-             ├── data_gathering.py
+             ├── data_gathering.py       
              ├── data_preparation.py
              ├── data_storage.py
              ├── data_transform.py
@@ -56,7 +56,7 @@ Project Organization
 ## General Structure
 
 The general idea is to centralise all steps of the pipeline in the nodes directory (submodule), the configuration in the `config.py` and `params.py` files, the connection in the `client.py` file and the pipeline itself on the `pipeline.py` file. 
-- Always specify in `config.py`  how we connect, read, write to data sources.
+- Always specify in `config.py`  how we connect, read, write to data sources, this should include data contracts
 - Always specify in `params.py` the specific pipeline settings
 
 ## Documentation
