@@ -5,18 +5,14 @@ A repo designed to give structure to each new ETL job that runs, in a consistent
 
 ### Install cookiecutter if you don't have it.
 
-> `pip install cookiecutter` or
-> `poetry add cookiecutter`
+> `pip install cookiecutter` 
 
 ### To start a new project run:
 
 > `cookiecutter https://github.com/mpearmain/etl-pipeline`
 
-for unix users or 
-
-> `cookiecutter.exe https://github.com/mpearmain/etl-pipelines`
-
-for Windows users.
+Follow the setup instructions, then install base dependencies 
+> `poetry install` 
 
 This will create a file organization in the following structure:
 Please note, there is no `DATA` structure to this project, we have purposefully excluded folders to store data in as 
