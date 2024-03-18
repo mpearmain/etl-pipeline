@@ -15,9 +15,10 @@ Follow the setup instructions, then install base dependencies
 > `poetry install` 
 
 This will create a file organization in the following structure:
+
 Please note, there is no `DATA` structure to this project, we have purposefully excluded folders to store data in as 
-this should be configuration.  this means that both the ingress and egress physical location can change based on the 
-external factors. 
+this should be configuration.  
+
 
 Project Organization
 ------------
