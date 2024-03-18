@@ -16,7 +16,7 @@ for unix users or
 
 > `cookiecutter.exe https://github.com/mpearmain/etl-pipelines`
 
-for windows users.
+for Windows users.
 
 This will create a file organization in the following structure:
 Please note, there is no `DATA` structure to this project, we have purposefully excluded folders to store data in as 
@@ -62,7 +62,7 @@ The general idea is to centralise all steps of the pipeline in the nodes directo
 
 The initial documentation is also already updated. One can create the documentation by entering docs and typing: 
 > `./make.bat`
-for windows users and 
+\or `Windows users and 
 > `./make` 
 for unix users. 
 
