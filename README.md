@@ -66,6 +66,6 @@ The initial documentation is also already updated. One can create the documentat
 > `./make` 
 for unix users. 
 
-Also, to run the documentation as is, you'll have to install a requirement. To do that, just type 
+Also, to run the documentation as is, you'll have to install a requirement. To do that, just type we use poetry 
 
-> `pip install -r requirements.txt`
+> `poetry install`
